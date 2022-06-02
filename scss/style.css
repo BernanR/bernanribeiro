@@ -12631,4 +12631,19 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.form-gl {
+  position: relative;
+  height: 660px;
+  overflow: hidden;
+}
+
+.form-gl iframe {
+  top: -200px;
+  position: absolute;
+}
+
+.form-gl .RLS9Fe {
+  background-color: #000000;
+}
 /*# sourceMappingURL=style.css.map */
