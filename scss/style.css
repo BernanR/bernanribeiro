@@ -10897,7 +10897,7 @@ h1, h2, h3, h4, h5,
   position: absolute;
   bottom: -40px;
   border: 5px #fff;
-  width: 1100px;
+  width: 100%;
 }
 
 .hero-wrap .astronaut img {
@@ -11243,6 +11243,12 @@ h1, h2, h3, h4, h5,
 
 .ftco-about .about-description {
   padding-top: 10.2rem !important;
+}
+
+@media (max-width: 767.98px) {
+  .ftco-about .about-description {
+    padding-top: 0 !important;
+  }
 }
 
 .ftco-about ul.about-info {
@@ -12001,6 +12007,12 @@ textarea.form-control {
   font-weight: 900;
 }
 
+@media (max-width: 767.98px) {
+  .heading-section h1.big {
+    text-align: center !important;
+  }
+}
+
 .heading-section h1.big.big-2 {
   right: 0;
 }
@@ -12647,5 +12659,15 @@ textarea.form-control {
 
 .form-gl .RLS9Fe {
   background-color: #000000;
+}
+
+#about-section {
+  overflow: hidden;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /*# sourceMappingURL=style.css.map */
